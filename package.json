@@ -1,0 +1,31 @@
+{
+  "name": "adming-gym",
+  "version": "1.0.0",
+  "description": "Administrador de Membresías de un gimnasio",
+  "main": "src/index.js",
+  "author": "Manuel Rivera mr98.dev@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/api/index",
+    "lint": "eslint src/api/ --ext .js --fix"
+  },
+  "dependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/register": "^7.12.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.10"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.12.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-webpack-plugin": "^2.1.0",
+    "nodemon": "^2.0.6"
+  }
+}
